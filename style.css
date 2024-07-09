@@ -1,11 +1,9 @@
-/* Resetting default browser styles */
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-/* Body styling */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -13,7 +11,6 @@ body {
     padding: 20px;
 }
 
-/* Header styling */
 header {
     background-color: #333;
     color: #fff;
@@ -26,14 +23,12 @@ header h1 {
     font-size: 3rem;
 }
 
-/* Container styling */
 .container {
     max-width: 960px;
     margin: 0 auto;
     padding: 0 20px;
 }
 
-/* Section styling */
 section {
     margin-bottom: 2rem;
 }
@@ -54,7 +49,6 @@ section li {
     margin-bottom: 0.5rem;
 }
 
-/* Project styling */
 .project {
     background-color: #fff;
     padding: 1.5rem;
@@ -87,7 +81,6 @@ section li {
     background-color: #555;
 }
 
-/* Testimonial styling */
 .testimonial {
     background-color: #f9f9f9;
     padding: 1.5rem;
@@ -101,7 +94,6 @@ section li {
     color: #666;
 }
 
-/* Blog styling */
 .blog-post {
     background-color: #fff;
     padding: 1.5rem;
@@ -129,7 +121,6 @@ section li {
     background-color: #555;
 }
 
-/* Gallery styling */
 .gallery-item {
     margin-bottom: 1rem;
     text-align: center;
@@ -145,7 +136,6 @@ section li {
     color: #666;
 }
 
-/* Social media styling */
 #social-media ul {
     display: flex;
     justify-content: center;
@@ -168,7 +158,6 @@ section li {
     color: #555;
 }
 
-/* Footer styling */
 footer {
     text-align: center;
     margin-top: 2rem;
