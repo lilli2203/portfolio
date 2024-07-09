@@ -1,9 +1,11 @@
+/* Resetting default browser styles */
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
+/* Body styling */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -11,6 +13,7 @@ body {
     padding: 20px;
 }
 
+/* Header styling */
 header {
     background-color: #333;
     color: #fff;
@@ -20,15 +23,23 @@ header {
 }
 
 header h1 {
-    font-size: 2.5rem;
+    font-size: 3rem;
 }
 
+/* Container styling */
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Section styling */
 section {
     margin-bottom: 2rem;
 }
 
 section h2 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     border-bottom: 1px solid #ccc;
     padding-bottom: 0.5rem;
     margin-bottom: 1rem;
@@ -43,17 +54,18 @@ section li {
     margin-bottom: 0.5rem;
 }
 
+/* Project styling */
 .project {
     background-color: #fff;
-    padding: 1rem;
+    padding: 1.5rem;
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 1rem;
 }
 
 .project h3 {
-    font-size: 1.5rem;
-    margin-bottom: 0.5rem;
+    font-size: 2rem;
+    margin-bottom: 1rem;
 }
 
 .project p {
@@ -68,15 +80,17 @@ section li {
     text-decoration: none;
     padding: 0.5rem 1rem;
     border-radius: 5px;
+    transition: background-color 0.3s;
 }
 
 .project a:hover {
     background-color: #555;
 }
 
+/* Testimonial styling */
 .testimonial {
     background-color: #f9f9f9;
-    padding: 1rem;
+    padding: 1.5rem;
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 1rem;
@@ -87,17 +101,18 @@ section li {
     color: #666;
 }
 
+/* Blog styling */
 .blog-post {
     background-color: #fff;
-    padding: 1rem;
+    padding: 1.5rem;
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 1rem;
 }
 
 .blog-post h3 {
-    font-size: 1.5rem;
-    margin-bottom: 0.5rem;
+    font-size: 2rem;
+    margin-bottom: 1rem;
 }
 
 .blog-post a {
@@ -107,6 +122,7 @@ section li {
     text-decoration: none;
     padding: 0.5rem 1rem;
     border-radius: 5px;
+    transition: background-color 0.3s;
 }
 
 .blog-post a:hover {
@@ -129,6 +145,7 @@ section li {
     color: #666;
 }
 
+/* Social media styling */
 #social-media ul {
     display: flex;
     justify-content: center;
@@ -143,7 +160,7 @@ section li {
     text-decoration: none;
     color: #333;
     font-weight: bold;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     transition: color 0.3s;
 }
 
@@ -151,6 +168,7 @@ section li {
     color: #555;
 }
 
+/* Footer styling */
 footer {
     text-align: center;
     margin-top: 2rem;
